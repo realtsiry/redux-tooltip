@@ -26,7 +26,7 @@ In addition to this, a tooltip should be controlled by Redux's actions.
 ## Installation
 
 ```
-npm install --save redux-tooltip
+npm install --save @tsiry/redux-tooltip
 ```
 
 ## Demo & Examples
