@@ -1,5 +1,5 @@
 {
-  "name": "redux-tooltip",
+  "name": "@tsiry/redux-tooltip",
   "version": "0.7.2",
   "description": "A tooltip React component for Redux",
   "main": "./lib/index.js",
@@ -7,8 +7,8 @@
     "type": "git",
     "url": "https://github.com/kuy/redux-tooltip.git"
   },
-  "homepage": "https://github.com/kuy/redux-tooltip",
-  "bugs": "https://github.com/kuy/redux-tooltip/issues",
+  "homepage": "https://github.com/realtsiry/redux-tooltip",
+  "bugs": "https://github.com/realtsiry/redux-tooltip/issues",
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server --progress --color --host 0.0.0.0 --content-base examples/",
     "build": "./node_modules/.bin/babel src --out-dir lib",
@@ -21,7 +21,8 @@
     "prepublish": "npm run clean && npm run build"
   },
   "authors": [
-    "Yuki Kodama <endflow.net@gmail.com>"
+    "Yuki Kodama <endflow.net@gmail.com>",
+    "Tsiry Sandratraina <tsiry.sandratraina@gmail.com>"
   ],
   "license": "MIT",
   "keywords": [
@@ -34,7 +35,8 @@
   "dependencies": {
     "blacklist": "^1.1.4",
     "dompurify": "^0.8.4",
-    "is-dom": "^1.0.5"
+    "is-dom": "^1.0.5",
+    "prop-types": "^15.6.2"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
