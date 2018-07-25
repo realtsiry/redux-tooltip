@@ -5,7 +5,7 @@
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kuy/redux-tooltip.git"
+    "url": "https://github.com/realtsiry/redux-tooltip.git"
   },
   "homepage": "https://github.com/realtsiry/redux-tooltip",
   "bugs": "https://github.com/realtsiry/redux-tooltip/issues",
