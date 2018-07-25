@@ -1,6 +1,6 @@
 {
   "name": "@tsiry/redux-tooltip",
-  "version": "0.7.4",
+  "version": "0.7.5",
   "description": "A tooltip React component for Redux",
   "main": "./lib/index.js",
   "repository": {
